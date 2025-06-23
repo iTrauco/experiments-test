@@ -9,6 +9,7 @@ Built to strip away noise and validate raw workflow mechanics.
 
 ## Table of Contents
 
+* [Project Structure](#project-structure)
 * [Scope](#scope)
 * [Upstream Integration](#upstream-integration)
 * [Reproducibility Framework](#reproducibility-framework)
@@ -16,6 +17,35 @@ Built to strip away noise and validate raw workflow mechanics.
   * [Environment Setup](#environment-setup)
   * [Environment Details](#environment-details)
   * [Environment Management](#environment-management)
+
+---
+
+## Project Structure
+
+The following directory structure is created using the `setup_experiments_structure.sh` script:
+
+```
+experiments-test/
+├── notebooks/
+│   ├── 01_preprocessing.ipynb     # Preprocessing logic
+│   ├── 02_training.ipynb          # Model training
+│   └── 03_inference.ipynb         # Inference pipeline
+├── data/
+│   ├── raw/                       # Original recordings
+│   ├── clips/                     # 60-second extracts
+│   ├── frames/                    # Extracted frames
+│   │   └── {camera_name}_{timestamp}/
+│   └── annotations/              # CVAT outputs
+├── configs/                       # JSON configs between notebooks
+└── models/                        # Trained models
+```
+
+To generate this structure:
+
+```bash
+# creates ~/experiments-test dir with baseline ml skeleton (debian only)
+bash setup_experiments_structure.sh
+```
 
 ---
 
