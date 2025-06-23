@@ -17,6 +17,7 @@ Built to strip away noise and validate raw workflow mechanics.
   * [Environment Setup](#environment-setup)
   * [Environment Details](#environment-details)
   * [Environment Management](#environment-management)
+* [References](#references)
 
 ---
 
@@ -43,7 +44,6 @@ experiments-test/
 To generate this structure:
 
 ```bash
-# creates ~/experiments-test dir with baseline ml skeleton (debian only)
 bash setup_experiments_structure.sh
 ```
 
@@ -147,3 +147,21 @@ conda env export > environment.yml
 ```
 
 This ensures full reproducibility across systems by preserving all dependencies and versions.
+
+---
+
+---
+
+**Author:** Christopher Trauco | [ORCID: 0009-0005-8113-6528](https://orcid.org/0009-0005-8113-6528)
+
+---okaybnow
+
+## References
+
+This repository includes citation tracking files located in the `references/` directory:
+
+* [`citations.bib`](references/citations.bib)
+* [`datasets.bib`](references/datasets.bib)
+* [`software.bib`](references/software.bib)
+
+These BibTeX files help manage research provenance and provide citation records for notebooks and datasets used in this project.
