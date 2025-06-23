@@ -1,0 +1,412 @@
+# ===================================
+# 🐍 PYTHON ARTIFACTS
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===================================
+# 🧪 VIRTUAL ENVIRONMENTS
+# ===================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.pyenv
+pipenv-install
+
+# ===================================
+# 📓 JUPYTER NOTEBOOKS
+# ===================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints/
+*.ipynb-meta
+*.nbconvert/
+.jupyter/
+jupyter_notebook_config.py
+
+# ===================================
+# 📊 DATA FILES
+# ===================================
+*.csv
+*.tsv
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.feather
+*.parquet
+*.arrow
+*.msgpack
+*.mat
+*.sav
+*.zsav
+*.dta
+*.xpt
+*.sas7bdat
+
+# ===================================
+# 📦 DATASETS & ARCHIVES
+# ===================================
+data/raw/
+data/processed/
+data/interim/
+data/external/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.bz2
+*.gz
+*.tgz
+
+# ===================================
+# 🧠 MODEL FILES
+# ===================================
+models/
+*.model
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.caffemodel
+*.h5
+*.hdf5
+*.joblib
+*.sav
+*.bin
+*.vec
+*.safetensors
+saved_models/
+checkpoints/
+weights/
+
+# ===================================
+# 🧪 TENSORFLOW
+# ===================================
+*.tfrecord
+*.tfevent
+*.tfevents
+logs/
+tensorboard/
+.tensorboard/
+tf_logs/
+
+# ===================================
+# 🔥 PYTORCH
+# ===================================
+*.pth.tar
+runs/
+.torch/
+
+# ===================================
+# 🧬 ML FRAMEWORKS
+# ===================================
+mlruns/
+outputs/
+.azureml/
+.aim/
+wandb/
+.neptune/
+.comet.ml/
+.guild/
+
+# ===================================
+# ☁️ CLOUD: GOOGLE / GCP
+# ===================================
+.gcp/
+.google/
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+service-account-key.json
+service-account-*.json
+gcp-key.json
+gcp-credentials.json
+credentials.json
+client_secret*.json
+.gcloudignore
+app.yaml
+
+# ===================================
+# ☁️ GOOGLE CLOUD STORAGE
+# ===================================
+.gsutil/
+gcs-key.json
+
+# ===================================
+# ☁️ BIGQUERY
+# ===================================
+.bigquery/
+*.bq
+
+# ===================================
+# ☁️ VERTEX AI / AI PLATFORM
+# ===================================
+.vertex/
+.aiplatform/
+
+# ===================================
+# 🛠️ IDE / EDITOR SETTINGS
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+.classpath
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# ===================================
+# 🧼 OS-SPECIFIC JUNK
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ===================================
+# 📚 DOCUMENTATION
+# ===================================
+docs/_build/
+docs/.doctrees/
+site/
+.mkdocs/
+
+# ===================================
+# 🧪 TESTING TOOLS
+# ===================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+.mutmut-cache
+
+# ===================================
+# 🔐 SECRETS & CONFIGURATION
+# ===================================
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+config/local/
+*.key
+*.pem
+*.p12
+.secrets/
+credentials/
+
+# ===================================
+# 📜 LOG FILES
+# ===================================
+*.log
+logs/
+*.out
+*.err
+log/
+
+# ===================================
+# ⚙️ TEMP FILES
+# ===================================
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+~$*
+
+# ===================================
+# 📦 PACKAGE MANAGERS
+# ===================================
+node_modules/
+bower_components/
+yarn-error.log
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# ===================================
+# 📈 R / MATLAB / SPSS / SAS
+# ===================================
+.Rhistory
+.Rdata
+.Rproj.user/
+*.Rproj
+*.asv
+*.m~
+*.sas7bcat
+*.sps
+
+# ===================================
+# ⚡ SPARK / DASK / RAY
+# ===================================
+spark-warehouse/
+metastore_db/
+derby.log
+dask-worker-space/
+ray_results/
+.ray/
+
+# ===================================
+# 🗃️ DVC & MLflow
+# ===================================
+.dvc/
+.dvcignore
+mlflow.db
+
+# ===================================
+# 🌐 STREAMLIT / GRADIO / FASTAPI
+# ===================================
+.streamlit/
+flagged/
+__pycache__/
+instance/
+
+# ===================================
+# 🐳 DOCKER
+# ===================================
+.dockerignore
+docker-compose.override.yml
+
+# ===================================
+# 🌍 TERRAFORM
+# ===================================
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# ===================================
+# ☁️ AIRFLOW / PREFECT / K8s
+# ===================================
+airflow.db
+airflow-webserver.pid
+logs/
+plugins/
+airflow.cfg
+.prefect/
+*.kubeconfig
+.kube/
+
+# ===================================
+# ☁️ AWS / AZURE
+# ===================================
+.aws/
+.boto
+.azure/
+local.settings.json
+
+# ===================================
+# 🧪 SCRATCH & EXPERIMENTS
+# ===================================
+scratch/
+sandbox/
+playground/
+experiments/
+.experiments/
+
+# ===================================
+# 🚫 LIBRARY MANAGEMENT SECTION 🚫
+# ===================================
+# 📚 Ignore ALL lib directories by default
+# lib/
+
+# ✅ Custom Development Libraries — Always Track!
+!lib/mlops/
+!lib/mlops/**
+!lib/notebook_tools/
+!lib/notebook_tools/**
+
+# 🆕 Future Modules
+# ------------------
+# !lib/data_utils/
+# !lib/data_utils/**
+# !lib/model_training/
+# !lib/model_training/**
+# !lib/visualization/
+# !lib/visualization/**
+# !lib/deployment/
+# !lib/deployment/**
+
+
+__pycache__/
+*.py[cod]
+
+
+
+# ===================================
+# 🎯 INCLUDE ONLY BATCH_ANALYSIS DATA FILES
+# ===================================
+*.csv
+*.json
+
+# ✅ Allow .csv and .json files only in data/preprocessing/batch_analysis and its subdirs
+!data/preprocessing/batch_analysis/**/*.csv
+!data/preprocessing/batch_analysis/**/*.json
