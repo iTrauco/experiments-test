@@ -410,3 +410,20 @@ __pycache__/
 # ✅ Allow .csv and .json files only in data/preprocessing/batch_analysis and its subdirs
 !data/preprocessing/batch_analysis/**/*.csv
 !data/preprocessing/batch_analysis/**/*.json
+
+
+# ===================================
+# 🎯 EXPERIMENTS-TEST EXCEPTIONS
+# ===================================
+# Track test artifacts for development
+!data/clips/*.mp4
+!data/frames/**/*.jpg
+!data/frames/**/*.png
+!configs/*.json
+
+# Keep directory structure
+!data/clips/.gitkeep
+!data/frames/.gitkeep
+!data/annotations/.gitkeep
+!configs/.gitkeep
+!models/.gitkeep

@@ -9,43 +9,15 @@ Built to strip away noise and validate raw workflow mechanics.
 
 ## Table of Contents
 
-* [Project Structure](#project-structure)
 * [Scope](#scope)
 * [Upstream Integration](#upstream-integration)
+* [Notebook Tools Installation](#notebook-tools-installation)
+* [⚠️ Development Status](#️-development-status)
 * [Reproducibility Framework](#reproducibility-framework)
 
   * [Environment Setup](#environment-setup)
   * [Environment Details](#environment-details)
   * [Environment Management](#environment-management)
-* [References](#references)
-
----
-
-## Project Structure
-
-The following directory structure is created using the `setup_experiments_structure.sh` script:
-
-```
-experiments-test/
-├── notebooks/
-│   ├── 01_preprocessing.ipynb     # Preprocessing logic
-│   ├── 02_training.ipynb          # Model training
-│   └── 03_inference.ipynb         # Inference pipeline
-├── data/
-│   ├── raw/                       # Original recordings
-│   ├── clips/                     # 60-second extracts
-│   ├── frames/                    # Extracted frames
-│   │   └── {camera_name}_{timestamp}/
-│   └── annotations/              # CVAT outputs
-├── configs/                       # JSON configs between notebooks
-└── models/                        # Trained models
-```
-
-To generate this structure:
-
-```bash
-bash setup_experiments_structure.sh
-```
 
 ---
 
@@ -62,6 +34,23 @@ bash setup_experiments_structure.sh
 * Current unstable work lives in → [feature/experiments-framework](https://github.com/iTrauco/traffic-vision-v0.4/tree/feature/experiments-framework) — a chaotic prototype branch being deprecated.
 
 This repo will drive a clean rebuild of workflow logic in the next iteration of `traffic-vision-v0.4`.
+
+---
+
+## Notebook Tools Installation
+
+```bash
+cd /path/to/notebook_tools
+pip install -e .
+```
+
+This installs the library in "editable" mode - any changes you make to the code are immediately available without reinstalling.
+
+---
+
+## ⚠️ Development Status
+
+All modules in `lib/` are early-stage development prototypes. Functionality is still being worked out — some modules may be dead code, others are spaghetti. Creating modular packages as I identify what's killing my bandwidth.
 
 ---
 
@@ -147,21 +136,3 @@ conda env export > environment.yml
 ```
 
 This ensures full reproducibility across systems by preserving all dependencies and versions.
-
----
-
----
-
-**Author:** Christopher Trauco | [ORCID: 0009-0005-8113-6528](https://orcid.org/0009-0005-8113-6528)
-
----
-
-## References
-
-This repository includes citation tracking files located in the `references/` directory:
-
-* [`citations.bib`](references/citations.bib)
-* [`datasets.bib`](references/datasets.bib)
-* [`software.bib`](references/software.bib)
-
-These BibTeX files help manage research provenance and provide citation records for notebooks and datasets used in this project.

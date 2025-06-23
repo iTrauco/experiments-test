@@ -1,0 +1,31 @@
+name: Convert Notebooks to Markdown
+on:
+  push:
+    paths: ['**.ipynb']
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install jupyter
+        run: pip install jupyter
+      
+      - name: Convert notebooks to markdown
+        run: |
+          find . -name "*.ipynb" ! -name "*.working.ipynb" -exec jupyter nbconvert --to markdown {} \;
+      
+      - name: Commit files
+        run: |
+          git config --local user.email "chris@trau.co"
+          git config --local user.name "iTrauco"
+          git add -A
+          git commit -m "Convert notebooks to markdown" || echo "No changes to commit"
+          git push
