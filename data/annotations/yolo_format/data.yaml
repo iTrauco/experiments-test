@@ -1,0 +1,5 @@
+names:
+  0: vehicle
+path: /home/trauco/experiments-test/data/annotations/yolo_format
+train: images
+val: images

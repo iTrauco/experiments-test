@@ -1,0 +1,8 @@
+{
+  "timestamp": "20250623_021049",
+  "preprocessing_config": "configs/preprocessing_20250623_004552.json",
+  "annotation_method": "cvat_manual",
+  "frame_count": 40,
+  "yaml_path": "data/annotations/yolo_format/data.yaml",
+  "export_path": "data/annotations/yolo_format"
+}
