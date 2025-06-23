@@ -1,0 +1,158 @@
+Annotation Directory Diagnostic Report
+Generated: 20250623_022809
+============================================================
+
+Annotations directory: /home/trauco/experiments-test/data/annotations
+Exists: True
+
+Directory tree:
+annotations/
+  cvat_exports/
+  docs/
+  images/
+  yolo_format/
+  ATL-0610-diff-40f-yolo.zip (710089 bytes)
+  README.md (34 bytes)
+  .gitkeep (0 bytes)
+  cvat_exports/
+    ATL-0610-diff-40f-yolo.zip (710089 bytes)
+  docs/
+    cutoff.png (255645 bytes)
+  images/
+    frame_0035.jpg (8816 bytes)
+    frame_0028.jpg (10498 bytes)
+    frame_0029.jpg (13896 bytes)
+    frame_0005.jpg (24703 bytes)
+    frame_0036.jpg (7595 bytes)
+    frame_0013.jpg (24720 bytes)
+    frame_0018.jpg (16495 bytes)
+    frame_0007.jpg (23620 bytes)
+    frame_0021.jpg (29138 bytes)
+    frame_0020.jpg (9947 bytes)
+    frame_0009.jpg (36999 bytes)
+    frame_0032.jpg (10564 bytes)
+    frame_0022.jpg (11462 bytes)
+    frame_0039.jpg (7208 bytes)
+    frame_0034.jpg (10278 bytes)
+    frame_0026.jpg (12220 bytes)
+    frame_0027.jpg (10929 bytes)
+    frame_0017.jpg (15128 bytes)
+    frame_0033.jpg (9280 bytes)
+    frame_0004.jpg (26549 bytes)
+    frame_0019.jpg (8199 bytes)
+    frame_0025.jpg (11427 bytes)
+    frame_0038.jpg (8153 bytes)
+    frame_0016.jpg (13021 bytes)
+    frame_0012.jpg (18704 bytes)
+    frame_0008.jpg (26917 bytes)
+    frame_0024.jpg (11356 bytes)
+    frame_0001.jpg (30473 bytes)
+    frame_0003.jpg (33640 bytes)
+    frame_0023.jpg (9602 bytes)
+    frame_0006.jpg (32859 bytes)
+    frame_0037.jpg (7840 bytes)
+    frame_0031.jpg (11125 bytes)
+    frame_0014.jpg (13383 bytes)
+    frame_0030.jpg (14221 bytes)
+    frame_0002.jpg (19170 bytes)
+    frame_0015.jpg (14604 bytes)
+    frame_0010.jpg (30994 bytes)
+    frame_0011.jpg (27232 bytes)
+    frame_0000.jpg (39231 bytes)
+  yolo_format/
+    images/
+    labels/
+    Train/
+    data.yaml (111 bytes)
+    images/
+    labels/
+    Train/
+      no_label/
+      labels.json (2401 bytes)
+      no_label/
+        frame_0035.jpg (8816 bytes)
+        frame_0028.jpg (10498 bytes)
+        frame_0029.jpg (13896 bytes)
+        frame_0005.jpg (24703 bytes)
+        frame_0036.jpg (7595 bytes)
+        frame_0013.jpg (24720 bytes)
+        frame_0018.jpg (16495 bytes)
+        frame_0007.jpg (23620 bytes)
+        frame_0021.jpg (29138 bytes)
+        frame_0020.jpg (9947 bytes)
+        frame_0009.jpg (36999 bytes)
+        frame_0032.jpg (10564 bytes)
+        frame_0022.jpg (11462 bytes)
+        frame_0039.jpg (7208 bytes)
+        frame_0034.jpg (10278 bytes)
+        frame_0026.jpg (12220 bytes)
+        frame_0027.jpg (10929 bytes)
+        frame_0017.jpg (15128 bytes)
+        frame_0033.jpg (9280 bytes)
+        frame_0004.jpg (26549 bytes)
+        frame_0019.jpg (8199 bytes)
+        frame_0025.jpg (11427 bytes)
+        frame_0038.jpg (8153 bytes)
+        frame_0016.jpg (13021 bytes)
+        frame_0012.jpg (18704 bytes)
+        frame_0008.jpg (26917 bytes)
+        frame_0024.jpg (11356 bytes)
+        frame_0001.jpg (30473 bytes)
+        frame_0003.jpg (33640 bytes)
+        frame_0023.jpg (9602 bytes)
+        frame_0006.jpg (32859 bytes)
+        frame_0037.jpg (7840 bytes)
+        frame_0031.jpg (11125 bytes)
+        frame_0014.jpg (13383 bytes)
+        frame_0030.jpg (14221 bytes)
+        frame_0002.jpg (19170 bytes)
+        frame_0015.jpg (14604 bytes)
+        frame_0010.jpg (30994 bytes)
+        frame_0011.jpg (27232 bytes)
+        frame_0000.jpg (39231 bytes)
+
+============================================================
+Specific locations:
+
+images:
+  Exists: True
+  JPG files: 40
+  TXT files: 0
+  Other files: 0
+  Sample JPGs:
+    - frame_0035.jpg
+    - frame_0028.jpg
+    - frame_0029.jpg
+
+labels:
+  Exists: False
+
+yolo_format:
+  Exists: True
+  JPG files: 0
+  TXT files: 0
+  Other files: 1
+
+yolo_format/images:
+  Exists: True
+  JPG files: 0
+  TXT files: 0
+  Other files: 0
+
+yolo_format/labels:
+  Exists: True
+  JPG files: 0
+  TXT files: 0
+  Other files: 0
+
+yolo_format/Train:
+  Exists: True
+  JPG files: 0
+  TXT files: 0
+  Other files: 1
+
+cvat_exports:
+  Exists: True
+  JPG files: 0
+  TXT files: 0
+  Other files: 1
