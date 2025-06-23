@@ -1,0 +1,13 @@
+{
+  "source_video": "/home/trauco/traffic-recordings/ATL-0610/2025-06-21/ATL-0610_20250621_120358.mp4",
+  "output_video": "data/inference_videos/ATL-0610_frame_diff_20250623_042317.mp4",
+  "processing_timestamp": "20250623_042317",
+  "video_properties": {
+    "width": 480,
+    "height": 270,
+    "fps": 14.999850179063763,
+    "duration_minutes": 15.017927777777777,
+    "total_frames": 13516
+  },
+  "processing_method": "frame_differencing_with_heatmap"
+}

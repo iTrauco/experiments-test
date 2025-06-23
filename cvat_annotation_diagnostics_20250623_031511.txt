@@ -1,0 +1,43 @@
+CVAT Annotation Count Diagnostics
+Issue: Job showing '1 annotating • 1 total' when ~30 frames annotated
+Generated: Mon Jun 23 03:15:11 AM EDT 2025
+========================================
+1. RUNNING CONTAINERS:
+NAMES                         STATUS                 PORTS
+cvat_ui                       Up 5 hours             80/tcp
+cvat_worker_quality_reports   Up 5 hours             8080/tcp
+cvat_worker_import            Up 5 hours             8080/tcp
+cvat_worker_utils             Up 5 hours             8080/tcp
+cvat_worker_export            Up 5 hours             8080/tcp
+cvat_server                   Up 5 hours             8080/tcp
+cvat_vector                   Up 5 hours             
+cvat_worker_webhooks          Up 5 hours             8080/tcp
+cvat_worker_chunks            Up 5 hours             8080/tcp
+cvat_worker_consensus         Up 5 hours             8080/tcp
+cvat_worker_annotation        Up 5 hours             8080/tcp
+cvat_db                       Up 5 hours             5432/tcp
+cvat_redis_inmem              Up 5 hours             6379/tcp
+cvat_redis_ondisk             Up 5 hours (healthy)   6666/tcp
+cvat_clickhouse               Up 5 hours             8123/tcp, 9000/tcp, 9009/tcp
+cvat_grafana                  Up 5 hours             3000/tcp
+cvat_opa                      Up 5 hours             
+traefik                       Up 5 hours             80/tcp, 0.0.0.0:8090->8090/tcp, [::]:8090->8090/tcp, 0.0.0.0:8081->8080/tcp, [::]:8081->8080/tcp
+
+2. DATABASE PERSISTENCE:
+Database container: cvat_db
+volume: /var/lib/docker/volumes/cvat_cvat_db/_data -> /var/lib/postgresql/data
+
+
+3. CVAT DATA PERSISTENCE:
+CVAT container: cvat_ui
+
+
+4. RECENT LOGS (job/annotation related):
+--- CVAT container logs (last 20 lines) ---
+No job-related log entries found
+--- Database logs (last 10 lines) ---
+No database errors found
+
+5. DOCKER COMPOSE CONFIG:
+No docker-compose file found in current directory
+========================================
